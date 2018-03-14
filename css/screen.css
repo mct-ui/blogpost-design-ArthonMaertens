@@ -346,6 +346,10 @@ a:hover, a:focus {
     .c-article__content {
         width: 75%;
     }
+    h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -355,4 +359,31 @@ a:hover, a:focus {
     .c-author__image {
         margin-bottom: 16px;
     }
+    h1 {
+        font-size: 52px;
+        line-height: 64px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 58px;
+        line-height: 72px;
+    }
+}
+
+/*
+    Utilities: max-width
+    ---
+    Utility classes to put specific max widths onto elements.
+*/
+
+.u-max-width-sm {
+    min-width: 36em;
+}
+
+.c-article__date {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
 }
