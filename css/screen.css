@@ -248,7 +248,7 @@ a:hover, a:focus {
         padding: 48px 48px 24px;
     }
     .c-article__author {
-        padding-bottom: 24px;
+        padding: 48px 48px 0;
     }
     .c-article__content {
         width: 75%;
@@ -263,12 +263,19 @@ a:hover, a:focus {
     .c-author {
         display: block;
     }
+    .c-article__content {
+        width: 75%;
+    }
     .c-author__image {
         margin-bottom: 16px;
     }
     h1 {
         font-size: 52px;
         line-height: 64px;
+    }
+    .c-article__body {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
